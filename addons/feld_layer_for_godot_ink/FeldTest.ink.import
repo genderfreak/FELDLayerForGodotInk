@@ -1,0 +1,16 @@
+[remap]
+
+importer="ink"
+type="Resource"
+uid="uid://cs5woxc5rl840"
+path="res://.godot/imported/FeldTest.ink-92de417449c5e124b52b1c22c73bdbd0.res"
+
+[deps]
+
+source_file="res://addons/feld_layer_for_godot_ink/FeldTest.ink"
+dest_files=["res://.godot/imported/FeldTest.ink-92de417449c5e124b52b1c22c73bdbd0.res"]
+
+[params]
+
+is_main_file=true
+compress=true

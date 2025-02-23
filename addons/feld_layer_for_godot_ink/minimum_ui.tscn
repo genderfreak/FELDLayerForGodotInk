@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbj52tg7kbql2"]
+
+[ext_resource type="Script" path="res://addons/feld_layer_for_godot_ink/minimum_ui.gd" id="1_ic7x5"]
+[ext_resource type="Resource" uid="uid://cs5woxc5rl840" path="res://addons/feld_layer_for_godot_ink/FeldTest.ink" id="2_o4eu1"]
+
+[node name="MinimumUi" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ic7x5")
+story = ExtResource("2_o4eu1")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.33
+anchor_top = 0.1
+anchor_right = 0.66
+anchor_bottom = 0.9
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+scroll_following = true
+shortcut_keys_enabled = false
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 100

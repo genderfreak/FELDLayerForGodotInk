@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Character" load_steps=2 format=3 uid="uid://w6pgbkllil36"]
+
+[ext_resource type="Script" path="res://addons/feld_layer_for_godot_ink/Characters/character.gd" id="2_gylvb"]
+
+[resource]
+script = ExtResource("2_gylvb")
+name = "Body"
+color = Color(0.456685, 0.350608, 0.530659, 1)

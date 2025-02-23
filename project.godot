@@ -1,0 +1,27 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="FELDLayerForGodotInk"
+config/features=PackedStringArray("4.3", "C#", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GlobalAccess="*res://addons/feld_layer_for_godot_ink/global_access.gd"
+
+[dotnet]
+
+project/assembly_name="FELDLayerForGodotInk"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GodotInk/plugin.cfg", "res://addons/feld_layer_for_godot_ink/plugin.cfg")

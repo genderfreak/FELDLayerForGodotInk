@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Character" load_steps=3 format=3 uid="uid://bm47i5gxb6uib"]
+
+[ext_resource type="Texture2D" uid="uid://q7mnaaak6kpd" path="res://icon.svg" id="1_fm6dq"]
+[ext_resource type="Script" path="res://addons/feld_layer_for_godot_ink/Characters/character.gd" id="1_k426p"]
+
+[resource]
+script = ExtResource("1_k426p")
+name = "Heart"
+portrait = ExtResource("1_fm6dq")
+color = Color(0.592505, 0.25739, 0.358108, 1)

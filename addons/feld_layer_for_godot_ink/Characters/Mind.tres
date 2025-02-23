@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Character" load_steps=3 format=3 uid="uid://bs38dju2qkxkm"]
+
+[ext_resource type="Texture2D" uid="uid://q7mnaaak6kpd" path="res://icon.svg" id="1_mrcty"]
+[ext_resource type="Script" path="res://addons/feld_layer_for_godot_ink/Characters/character.gd" id="2_c8wkr"]
+
+[resource]
+script = ExtResource("2_c8wkr")
+name = "Mind"
+portrait = ExtResource("1_mrcty")
+color = Color(0.322747, 0.483984, 0.824284, 1)

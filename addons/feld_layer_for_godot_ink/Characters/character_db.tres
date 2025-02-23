@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CharacterDatabase" load_steps=6 format=3 uid="uid://dhm03jnctk12r"]
+
+[ext_resource type="Script" path="res://addons/feld_layer_for_godot_ink/Characters/character.gd" id="1_kv5ab"]
+[ext_resource type="Resource" uid="uid://bm47i5gxb6uib" path="res://addons/feld_layer_for_godot_ink/Characters/Heart.tres" id="2_sstt8"]
+[ext_resource type="Resource" uid="uid://bs38dju2qkxkm" path="res://addons/feld_layer_for_godot_ink/Characters/Mind.tres" id="3_sdjk2"]
+[ext_resource type="Resource" uid="uid://w6pgbkllil36" path="res://addons/feld_layer_for_godot_ink/Characters/Body.tres" id="4_uspu2"]
+[ext_resource type="Script" path="res://addons/feld_layer_for_godot_ink/Characters/character_database.gd" id="5_r4qfe"]
+
+[resource]
+script = ExtResource("5_r4qfe")
+characters = Array[ExtResource("1_kv5ab")]([ExtResource("2_sstt8"), ExtResource("3_sdjk2"), ExtResource("4_uspu2")])
