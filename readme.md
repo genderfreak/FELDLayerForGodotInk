@@ -39,9 +39,9 @@ dictionary can be modified by your Godot game scripts, or by your Ink files by b
 functions is done by Ink's ``EXTERNAL`` keyword, like so - ``EXTERNAL get_var(var_name)``.
 
 Functions you should bind in your Ink script for full functionality are:
-	```EXTERNAL do_check(tag)
+	EXTERNAL do_check(tag)
 	EXTERNAL get_var(var_name)
-	EXTERNAL set_var(var_name,value)```
+	EXTERNAL set_var(var_name,value)
 
 get_var will get a var from the GlobalAccess dictionary, and will resolve nested dictionaries
 by using periods between references. For example, calling ``get_var("CHECKS.EASY_WHITE_CHECK.GOAL")``
