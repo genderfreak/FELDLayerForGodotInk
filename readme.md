@@ -9,7 +9,7 @@ You can email me @ genderfr3ak@gmail.com if you have any questions.
 
 ## Installation
 
-This project requires [Ink](https://github.com/paulloz/godot-ink) and Godot Mono. See their
+This project requires [Godot Ink](https://github.com/paulloz/godot-ink) and Godot Mono. See their
 respective installation and usage guides.
 
 ## Usage
@@ -35,16 +35,16 @@ name is the Character object's ``name`` property.
 
 All variables that your Ink needs to access must be stored in the GlobalAccess singleton's dictionary
 ``Player_Stats_Flags``. The script file comes filled with the stats used by the example file. This
-dictionary can be modified by your Godot game scripts, or by your Ink files by bound functions. Using these
+dictionary can be modified by your Godot game scripts, or by your Ink files by bound functions. Binding these
 functions is done by Ink's ``EXTERNAL`` keyword, like so - ``EXTERNAL get_var(var_name)``.
 
 Functions you should bind in your Ink script for full functionality are:
-	EXTERNAL do_check(tag)
+	```EXTERNAL do_check(tag)
 	EXTERNAL get_var(var_name)
-	EXTERNAL set_var(var_name,value)
+	EXTERNAL set_var(var_name,value)```
 
 get_var will get a var from the GlobalAccess dictionary, and will resolve nested dictionaries
-by using periods between references. For example, calling ```get_var("CHECKS.EASY_WHITE_CHECK.GOAL")
+by using periods between references. For example, calling ``get_var("CHECKS.EASY_WHITE_CHECK.GOAL")``
 in your Ink script would return 8. set_var functions in the same way.
 
 ### Passive Checks
