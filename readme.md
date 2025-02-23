@@ -5,6 +5,9 @@ inspired by Disco Elysium.
 
 Currently, this includes functionality replicating character names and the various checks seen in the game.
 
+
+![screenshot of minimal UI running in godot](./screenshot.png)
+
 You can email me @ genderfr3ak@gmail.com if you have any questions.
 
 ## Installation
